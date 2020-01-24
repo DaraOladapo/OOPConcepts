@@ -6,7 +6,14 @@ namespace Classes
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Automobile myAutomobile = new Automobile();
+            myAutomobile.Make = "Toyota";
+            myAutomobile.Model = "Corolla";
+            myAutomobile.Year = 2015;
+            myAutomobile.EngineType = Engine.Hybrid;
+            myAutomobile.TransmissionType = Transmission.Automatic;
+            Console.WriteLine($"Now we have our {myAutomobile.Make} {myAutomobile.Model} {myAutomobile.Year}");
+            Console.ReadLine();
         }
     }
 }

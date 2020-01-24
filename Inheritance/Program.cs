@@ -13,7 +13,7 @@ namespace Inheritance
             myCar.EngineType = Engine.Hybrid;
             myCar.TransmissionType = Transmission.Automatic;
             myCar.CompanionApp = "myT";
-            Console.WriteLine($"Now we have our {myCar.Make} {myCar.Model} {myCar.Year}");
+            Console.WriteLine($"Now we have our {myCar.Make} {myCar.Model} {myCar.Year} has a companion app of {myCar.CompanionApp}");
             myCar.Start();
             myCar.Accelerate();
             myCar.Reverse();

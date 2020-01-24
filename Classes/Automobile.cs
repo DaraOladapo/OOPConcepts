@@ -8,7 +8,7 @@ namespace Classes
         private int year;
         private Engine engineType;
         private Transmission transmissionType;
-
+        //Attributes/Fields/Properties
         public string Make
         {
             get { return make; }
@@ -29,6 +29,7 @@ namespace Classes
             get { return engineType; }
             set { engineType = value; }
         }
+        //Behaviours/Methods/Functions
         public Transmission TransmissionType
         {
             get { return transmissionType; }
